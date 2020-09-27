@@ -1,0 +1,16 @@
+
+
+total = 56300
+
+aliq_iss = 0.04
+
+aliq_icms = 0.18
+
+valor_iss = total * aliq_iss
+
+valor_icms = total * aliq_icms
+
+total_impostos = valor_iss + valor_icms
+
+print("O total de impostos a ser pago é de %.2f" % total_impostos )
+
